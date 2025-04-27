@@ -11,7 +11,8 @@
 \usepackage{listings}        % Code-Listings
 \usepackage{csquotes}        % Zitate
 \usepackage{csvsimple}  % Für das Einfügen von CSV-Dateien
-
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
 \geometry{a4paper, margin=2.5cm}
 % Einstellungen für Hyperlinks
 \hypersetup{
@@ -88,27 +89,45 @@
 \subsection{Zielsetzung der Ausarbeitung}
 Diese Ausarbeitung ist Teil des Moduls \textbf{Implementierung digitaler Geschäftsprozesse}.
 Die Ausarbeitung bildet den Ablauf und die Reflexion des Planspiels \textit{kdibisglobal} ab,
-das im Rahmen des Moduls durchgeführt wurde. Hierbei wird auf die einzelnen Spielrunden eingegangen
-und die jeweiligen Ergebnisse und Erkenntnisse analysiert und reflektiert. Zusätzlich werden weitere Methoden
+das im Rahmen des Moduls durchgeführt wurde.
+Hierbei wird auf die einzelnen Spielrunden eingegangen
+und die jeweiligen Ergebnisse und Erkenntnisse analysiert und reflektiert.
+Zusätzlich werden weitere Methoden
 erläutert, die im Rahmen des Moduls behandelt wurden, aber nicht im Planspiel angewendet werden konnten.
 
 \subsection{Überblick über das Planspiel kdibisglobal}
 \textbf{kdibisglobal} wurde speziell für das Buch Integrierte Business-Informationssysteme von Herrn Klaus-Dieter Gronwald entwickelt,
 um ein praktisches Verständnis für digitale Geschäftsprozesse zu erlangen.
-Das Planspiel simuliert das Geschäftsprozessmanagement für einen Bierhersteller. 
-In diesem Planspiel übernehmen die Teilnehmer einzelne Bereiche innerhalb des Unternehmens und sind für die jeweiligen Bestellungen zuständig. 
+Das Planspiel simuliert das Geschäftsprozessmanagement für einen Bierhersteller.
+
+In diesem Planspiel übernehmen die Teilnehmer einzelne Bereiche innerhalb des Unternehmens und sind für die jeweiligen Bestellungen zuständig.
 Dabei müssen verschiedene Faktoren berücksichtigt werden, wie Lieferverzögerungen, Verfügbarkeit von Produkten, saisonale Nachfrage und so weiter.
 Zusätzlich werden wichtige Bereiche wie Supply Chain Management (SCM) und Customer Relationship Management (CRM) abgebildet.
+
 Im Rahmen des SCM geht es darum, Bestände sinnvoll zu planen, Nachbestellungen rechtzeitig auszulösen und Lieferengpässe zu vermeiden.
 Beim CRM steht die Beziehung zum Kunden im Vordergrund, also etwa das Management von Aufträgen,
 die Sicherstellung einer hohen Kundenzufriedenheit sowie die Reaktion auf Änderungen in der Nachfrage.
-Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensprozesse effizient zu gestalten \cite{Kdibisglobal2025}
+
+Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensprozesse effizient zu gestalten.\cite{Kdibisglobal2025}
 
 % Ablauf und Reflexion des Planspiels
 \section{Ablauf und Reflexion des Planspiels}
+Die Erkenntnisse sowie die Ergebnisse des Planspiels werden in drei Spielrunden unterteilt und analysiert.
+Zusätzlich werden die theoretischen Inhalte aus dem Modul Implementierung digitaler Geschäftsprozesse erläutert und
+in den Kontext des Planspiels gesetzt.
+
+Für die Spielrunden SCM1 und SCM2 wird das Supply Chain Management nur im Bereich des Einzelhandels betrachtet,
+da der Autor der Ausarbeitung hierfür zuständig war.
+
+Für die Spielrunde CRM2 wird das Customer Relationship Management betrachtet. Da jedes Teammitglied einen Einzelhandel repräsentiert hat, also 5 Teammitglieder auf 4 Einzelhandel verteilt wurden,
+mussten der Autor und ein weiteres Teammitglied gemeinsam für Einzelhandel 1 agieren. Jeder Einzelhandel hatte bis zu 12 Produkte. Da in Einzelhandel 1 zwei Teammitglieder zuständig waren, mussten die Produkte durch 2 aufgeteilt werden.
+Dem entsprechend kann nicht das gesamte Einzelhandelsproduktsortiment betrachtet werden, sondern nur die Produkte, für die der Autor zuständig war.
 
 \subsection{Spielrunde 1 – SCM1: Bullwhip Game und ERP-Strategie}
-
+SCM 1 ist die erste Spielrunde, in dem ein Jahr simuliert wird unnd eine Bestellzyklus von 1 Woche besteht, was 52 Spielrunden entspricht.
+Zudem gibt es in diesem Spieljahr keinen Forecast, kein Inventory Management und keine Kommunikation zwischen den Teammitglieder.
+Ziel ist es dabei die Auswirkungen eines nicht kommunikativen Supply Chain Management zu erfahren und eine Demonstration des Bullwhip-Effekts zu erfahren.
+--Quelle--
 
 \subsubsection{Analyse des eigenen Bestellverhaltens im Einzelhandel}
 \subsubsection{Ursachen des Bullwhip-Effekts im Kontext des Einzelhandels}
@@ -140,16 +159,16 @@ Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensproze
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \section*{Literaturverzeichnis}
 \begin{thebibliography}{99}
-    \bibitem{Schlottke2020} Schlottke, F., Krcmar, H. (2020). Einführung in die Digitalisierung. In: Fähnrich, K.P., Franczyk, B. (Hrsg.) \textit{Digitale Geschäftsprozesse}, Springer Vieweg, Berlin, Heidelberg. Verfügbar unter: \url{https://link.springer.com/book/10.1007/978-3-662-59815-3} (zuletzt aufgerufen am 27.04.2025).
+    \bibitem{Gronwald2020} Gronwald, (2020). \textit{Integrierte Business-Informationssysteme – Ganzheitliche, geschäftsprozessorientierte Sicht auf die vernetzte Unternehmensprozesskette ERP, SCM, CRM, BI, Big Data Analytics}. Springer Vieweg, 2020. Verfügbar unter: \url{https://link.springer.com/book/10.1007/978-3-662-59815-3} (zuletzt aufgerufen am 27.04.2025)
     \bibitem{Kdibisglobal2025} Gronwald, K.D. \textit{kdibisglobal – Planspiel zur Umsetzung integrierter Business-Informationssysteme}. Verfügbar unter: \url{https://www.kdibisglobal.org/php/kdiglobstart.php} (zuletzt aufgerufen am 27.04.2025)
 \end{thebibliography}
 
 
 \newpage
 % Anhang
-\appendix
-\section{Anhang}
-Hier können zusätzliche Informationen, wie Code-Beispiele oder ausführliche Tabellen, eingefügt werden.
+%\appendix
+%\section{Anhang}
+%Hier können zusätzliche Informationen, wie Code-Beispiele oder ausführliche Tabellen, eingefügt werden.
 
 % Ehrenwörtliche Erklärung
 \newpage
