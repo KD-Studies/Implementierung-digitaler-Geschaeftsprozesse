@@ -163,6 +163,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
 INPUT C:\Users\Kursat\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\Kursat\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\Kursat\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Kursat\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\main.aux
@@ -255,6 +257,13 @@ INPUT main.lot
 OUTPUT main.lot
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
+INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1728.tfm
 INPUT main.aux
