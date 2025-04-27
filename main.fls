@@ -257,13 +257,6 @@ INPUT main.lot
 OUTPUT main.lot
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
-INPUT .\abbildungen\scm1\scm1bullwhipeffektindex.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1728.tfm
 INPUT main.aux
