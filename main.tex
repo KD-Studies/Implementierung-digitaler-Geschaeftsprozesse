@@ -8,10 +8,11 @@
 \usepackage{graphicx}        % Einfügen von Bildern
 \usepackage{hyperref}        % Hyperlinks
 \usepackage{geometry}        % Seitenränder
-\geometry{a4paper, margin=2.5cm}
 \usepackage{listings}        % Code-Listings
 \usepackage{csquotes}        % Zitate
+\usepackage{csvsimple}  % Für das Einfügen von CSV-Dateien
 
+\geometry{a4paper, margin=2.5cm}
 % Einstellungen für Hyperlinks
 \hypersetup{
     colorlinks=true,
@@ -57,14 +58,23 @@
 \listoftables
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
 \newpage
+%-- Beispiel für eine Tabelle --%
+%\begin{table}[htbp]
+%    \centering
+%    \resizebox{\textwidth}{!}{ 
+%    \csvautotabular[separator=semicolon]{tabellen/scm1/test.csv}  % Pfad zur CSV-Datei
+%    }
+%    \caption{Beispieltabelle aus test.csv}
+%    \label{tab:testcsv}
+%\end{table}
+%-- Ende Beispiel --%
 
 % Abkürzungsverzeichnis
 \section*{Abkürzungsverzeichnis}
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \begin{description}
-    \item[HTML] Hypertext Markup Language
-    \item[CSS] Cascading Style Sheets
-    \item[JS] JavaScript
+    \item[CRM] Customer Relationship Management
+    \item[SCM] Supply Chain Management
 \end{description}
 \newpage
 
@@ -76,13 +86,30 @@
 % Einleitung
 \section{Einleitung}
 \subsection{Zielsetzung der Ausarbeitung}
+Diese Ausarbeitung ist Teil des Moduls \textbf{Implementierung digitaler Geschäftsprozesse}.
+Die Ausarbeitung bildet den Ablauf und die Reflexion des Planspiels \textit{kdibisglobal} ab,
+das im Rahmen des Moduls durchgeführt wurde. Hierbei wird auf die einzelnen Spielrunden eingegangen
+und die jeweiligen Ergebnisse und Erkenntnisse analysiert und reflektiert. Zusätzlich werden weitere Methoden
+erläutert, die im Rahmen des Moduls behandelt wurden, aber nicht im Planspiel angewendet werden konnten.
+
 \subsection{Überblick über das Planspiel kdibisglobal}
-\subsection{Rolle des Unternehmens: Einzelhandel im Biermarkt}
+\textbf{kdibisglobal} wurde speziell für das Buch Integrierte Business-Informationssysteme von Herrn Klaus-Dieter Gronwald entwickelt,
+um ein praktisches Verständnis für digitale Geschäftsprozesse zu erlangen.
+Das Planspiel simuliert das Geschäftsprozessmanagement für einen Bierhersteller. 
+In diesem Planspiel übernehmen die Teilnehmer einzelne Bereiche innerhalb des Unternehmens und sind für die jeweiligen Bestellungen zuständig. 
+Dabei müssen verschiedene Faktoren berücksichtigt werden, wie Lieferverzögerungen, Verfügbarkeit von Produkten, saisonale Nachfrage und so weiter.
+Zusätzlich werden wichtige Bereiche wie Supply Chain Management (SCM) und Customer Relationship Management (CRM) abgebildet.
+Im Rahmen des SCM geht es darum, Bestände sinnvoll zu planen, Nachbestellungen rechtzeitig auszulösen und Lieferengpässe zu vermeiden.
+Beim CRM steht die Beziehung zum Kunden im Vordergrund, also etwa das Management von Aufträgen,
+die Sicherstellung einer hohen Kundenzufriedenheit sowie die Reaktion auf Änderungen in der Nachfrage.
+Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensprozesse effizient zu gestalten \cite{Kdibisglobal2025}
 
 % Ablauf und Reflexion des Planspiels
 \section{Ablauf und Reflexion des Planspiels}
 
 \subsection{Spielrunde 1 – SCM1: Bullwhip Game und ERP-Strategie}
+
+
 \subsubsection{Analyse des eigenen Bestellverhaltens im Einzelhandel}
 \subsubsection{Ursachen des Bullwhip-Effekts im Kontext des Einzelhandels}
 \subsubsection{Distributionslogistik und Bestellmengen im Einzelhandel}
@@ -96,21 +123,25 @@
 \subsubsection{Auswahl und Anwendung von Forecastingmethoden}
 \subsubsection{Optimierung der Bestellkosten im Einzelhandel}
 \subsubsection{Umgang mit Lieferverzögerungen über Blockchain \& Smart Contracts}
+\subsubsection{Anwendung des Kanban-Prinzips zur Optimierung der Lieferkette}
 
 \subsection{Spielrunde 3 – CRM3: Kundenmanagement mit Big Data}
 \subsubsection{Analyse der Einzelhandels-Ergebnisse im 3. Fiskaljahr}
 \subsubsection{ Performance-Analyse mit Word Tree \& beworbenen Produkten}
 \subsubsection{Einsatz von Sentiment Analysis im CRM und Marketing}
+
 % Fazit
 \section{Fazit}
 \subsection{Wichtige Erkenntnisse für den Einzelhandel aus den Spielrunden}
 \subsection{Bewertung des eigenen Verhaltens und der Teamkoordination}
+
 % Literaturverzeichnis
 \newpage
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \section*{Literaturverzeichnis}
 \begin{thebibliography}{99}
-    \bibitem{Schlottke2020} Schlottke, F., Krcmar, H. (2020). Einführung in die Digitalisierung. In: Fähnrich, K.P., Franczyk, B. (Hrsg.) \textit{Digitale Geschäftsprozesse}, pp. 1–24. Springer Vieweg, Berlin, Heidelberg. Verfügbar unter: \url{https://link.springer.com/chapter/10.1007/978-3-662-59815-3_1} (zuletzt aufgerufen am 23.04.2025).
+    \bibitem{Schlottke2020} Schlottke, F., Krcmar, H. (2020). Einführung in die Digitalisierung. In: Fähnrich, K.P., Franczyk, B. (Hrsg.) \textit{Digitale Geschäftsprozesse}, Springer Vieweg, Berlin, Heidelberg. Verfügbar unter: \url{https://link.springer.com/book/10.1007/978-3-662-59815-3} (zuletzt aufgerufen am 27.04.2025).
+    \bibitem{Kdibisglobal2025} Gronwald, K.D. \textit{kdibisglobal – Planspiel zur Umsetzung integrierter Business-Informationssysteme}. Verfügbar unter: \url{https://www.kdibisglobal.org/php/kdiglobstart.php} (zuletzt aufgerufen am 27.04.2025)
 \end{thebibliography}
 
 
