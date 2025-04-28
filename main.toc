@@ -8,22 +8,20 @@
 \contentsline {section}{\numberline {2}Ablauf und Reflexion des Planspiels}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Spielrunde 1 – SCM1: Bullwhip Game und ERP-Strategie}{2}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Ursachen des Bullwhip-Effekts im Planspiel}{3}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}IT-Situation der Einzelhandelsketten 1–4}{3}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Wahl einer M\&A IT-Integrationsstrategie}{3}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Organisational Readiness und CMMI-Reifegrade}{3}{subsubsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.2}Spielrunde 2 – SCM2: Forecasting und Inventory Management}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Bestell- und Lieferverhalten im Einzelhandel}{4}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Teamstrategie und interne Abstimmung}{4}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Auswahl und Anwendung von Forecastingmethoden}{4}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Optimierung der Bestellkosten im Einzelhandel}{4}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Umgang mit Lieferverzögerungen über Blockchain \& Smart Contracts}{4}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Anwendung des Kanban-Prinzips zur Optimierung der Lieferkette}{4}{subsubsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.3}Spielrunde 3 – CRM3: Kundenmanagement mit Big Data}{5}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Analyse der Einzelhandels-Ergebnisse im 3. Fiskaljahr}{5}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2} Performance-Analyse mit Word Tree \& beworbenen Produkten}{5}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Einsatz von Sentiment Analysis im CRM und Marketing}{5}{subsubsection.2.3.3}%
-\contentsline {section}{\numberline {3}Fazit}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Wichtige Erkenntnisse für den Einzelhandel aus den Spielrunden}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Bewertung des eigenen Verhaltens und der Teamkoordination}{6}{subsection.3.2}%
-\contentsline {section}{Literaturverzeichnis}{7}{subsection.3.2}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Wahl einer M\&A IT-Integrationsstrategie}{3}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Spielrunde 2 – SCM2: Forecasting und Inventory Management}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Bestell- und Lieferverhalten im Einzelhandel}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Teamstrategie und interne Abstimmung}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Auswahl und Anwendung von Forecastingmethoden}{5}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Optimierung der Bestellkosten im Einzelhandel}{5}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Umgang mit Lieferverzögerungen über Blockchain \& Smart Contracts}{5}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Anwendung des Kanban-Prinzips zur Optimierung der Lieferkette}{5}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}Spielrunde 3 – CRM3: Kundenmanagement mit Big Data}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Analyse der Einzelhandels-Ergebnisse im 3. Fiskaljahr}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2} Performance-Analyse mit Word Tree \& beworbenen Produkten}{6}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Einsatz von Sentiment Analysis im CRM und Marketing}{6}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Fazit}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Wichtige Erkenntnisse für den Einzelhandel aus den Spielrunden}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Bewertung des eigenen Verhaltens und der Teamkoordination}{7}{subsection.3.2}%
+\contentsline {section}{Literaturverzeichnis}{8}{subsection.3.2}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{9}{subsection.3.2}%
