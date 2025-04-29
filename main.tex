@@ -109,7 +109,7 @@ Im Rahmen des SCM geht es darum, Bestände sinnvoll zu planen, Nachbestellungen 
 Beim CRM steht die Beziehung zum Kunden im Vordergrund, also etwa das Management von Aufträgen,
 die Sicherstellung einer hohen Kundenzufriedenheit sowie die Reaktion auf Änderungen in der Nachfrage.
 
-Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensprozesse effizient zu gestalten.\cite{Kdibisglobal2025}
+Ziel ist es, durch den richtigen Einsatz digitaler Systeme die Unternehmensprozesse effizient zu gestalten.\cite{Kdibisglobal}
 
 % Ablauf und Reflexion des Planspiels
 \section{Ablauf und Reflexion des Planspiels}
@@ -121,7 +121,7 @@ Für die Spielrunden SCM1 und SCM2 wird das Supply Chain Management nur im Berei
 da der Autor der Ausarbeitung hierfür zuständig war.
 
 Für die Spielrunde CRM2 wird das Customer Relationship Management betrachtet. Da jedes Teammitglied einen Einzelhandel repräsentiert hat, also 5 Teammitglieder auf 4 Einzelhandel verteilt wurden,
-mussten der Autor und ein weiteres Teammitglied gemeinsam für Einzelhandel 1 agieren. Jeder Einzelhandel hatte bis zu 12 Produkte. Da in Einzelhandel 1 zwei Teammitglieder zuständig waren, mussten die Produkte durch 2 aufgeteilt werden.
+mussten der Autor und ein weiteres Teammitglied gemeinsam für Einzelhandel 1 agieren. Jeder Einzelhandel hatte bis zu 11 Produkte. Da in Einzelhandel 1 zwei Teammitglieder zuständig waren, mussten die Produkte durch 2 aufgeteilt werden.
 Dem entsprechend kann nicht das gesamte Einzelhandelsproduktsortiment betrachtet werden, sondern nur die Produkte, für die der Autor zuständig war.
 
 \subsection{Spielrunde 1 – SCM1: Bullwhip Game und ERP-Strategie}
@@ -192,7 +192,10 @@ Das bedeutet: Wenn Abteilungen Bestellungen auf- oder abrunden, kommt es zu stä
 Bei der Lead Time spielt die Zeitdifferenz zwischen Bestellung und Erhalt der Ware eine entscheidende Rolle.
 Wenn Teammitglieder auf die Supply Chain reagieren, die Waren jedoch verzögert eintreffen, kann ein starker Effekt entstehen, wie es in den Wochen 11–18 aufgetreten ist und in Abbildung \ref{fig:SCM1 Bullwhip-Effekt-Index} erkennbar ist.
 
-%\subsubsection{IT-Situation der Einzelhandelsketten 1–4}
+\subsubsection{IT-Situation der Einzelhandelsketten 1–4}
+Auch die IT-Situation der Einzelhandelsketten 1–4 ist ein wichtiger Punkt, der im Planspiel nicht berücksichtigt wurde.
+In diesem wird vorallem in Einzelhandel deutlich, dass man nicht speziell 
+
 \subsubsection{Wahl einer M\&A IT-Integrationsstrategie}
 Die erste Spielrunde hat deutlich gezeigt, wie entscheidend eine gute IT-Integration ist.
 Auch im Buch von Gronwald wird betont, dass eine effiziente IT-Integration eine zentrale Rolle bei der Optimierung der Supply Chain spielt.
@@ -239,32 +242,267 @@ hätte eine Schnittstelle zwischen den IT-Systemen implementiert werden müssen.
 
 \newpage
 \subsection{Spielrunde 2 – SCM2: Forecasting und Inventory Management}
-\subsubsection{Bestell- und Lieferverhalten im Einzelhandel}
-\subsubsection{Teamstrategie und interne Abstimmung}
-\subsubsection{Auswahl und Anwendung von Forecastingmethoden}
-\subsubsection{Optimierung der Bestellkosten im Einzelhandel}
-\subsubsection{Umgang mit Lieferverzögerungen über Blockchain \& Smart Contracts}
-\subsubsection{Anwendung des Kanban-Prinzips zur Optimierung der Lieferkette}
+Die Zweite Spielrunde SCM2 ist die Runde, die die schwächen der ersten Runde ausgeglichen hat.
+In dem die Transparenz zwischen den Teammitgliedern geschaffen wurde und die Kommunikation zwischen den Teammitgliedern erlaubt wurde.
+Zudem kam in dieser Runde erstmals eine Forecasting-Methode zum Einsatz, wie sie im Kapitel \enquote{Auswahl und Anwendung von Forcastingmethoden} erläutert wird.
+%\begin{table}[H]
+%    \centering
+%    \resizebox{\textwidth}{!}{ 
+%    \csvautotabular[separator=semicolon]{tabellen/scm2/scm2komplettablauf.csv}}
+%    \caption{SCM 2 Spielablauf}
+%    \label{tab:SCM 2 Spielablauf}
+%\end{table}
+Aus der Tabelle geht hervor, dass der Forecast bis zur Spielrunde 13 sehr gut funktionierte.
+Da jedoch in den Spielrunden 8–10 Lieferverzögerungen angekündigt wurden, ohne dass entsprechende Maßnahmen getroffen wurden, hatte dies fatale Auswirkungen in den Spielrunden 18–26.
+Weil die Geschäftsbereiche in dieser Phase keine Lagerbestände aufgebaut hatten, kam es zu erheblichen Fehlmengen, die den Bullwhip-Effekt in den verschiedenen Bereichen auslösten.
+Dieser Effekt führte zu emotionalen Käufen, die wiederum in Woche 27 zu Überbestellungen führten.
 
+Durch die Kommunikation zwischen den Teammitgliedern wurde deutlich, dass die Überbestellungen emotional motiviert waren.
+Das Ziel war fortan, wieder strikt nach dem Forecast zu arbeiten und gleichzeitig die Lagerbestände zu reduzieren.
+In den Spielrunden 28 bis 34 ließ sich dies jedoch nicht vollständig umsetzen, da der Lagerbestand nicht reduziert werden konnte, solange weiterhin gemäß Forecast bestellt wurde.
+Daher wurde der Lagerbestand weitgehend ignoriert, und die Bestellungen wurden bis zur Spielrunde 50 konsequent am Forecast ausgerichtet.
+
+In den letzten zwei Spielrunden hingegen wurde der Forecast nicht mehr berücksichtigt, stattdessen diente der Lagerbestand als Grundlage, um den entstandenen Überschuss abzubauen.
+%\subsubsection{Bestell- und Lieferverhalten im Einzelhandel}
+
+
+\subsubsection{Auswahl und Anwendung von Forcastingmethoden und Teamstrategie}
+Die Forecast-Methode wird im Buch von Gronwald als ein wichtiger Bestandteil des Demand-Managements beschrieben.
+Sie soll dabei helfen, Entscheidungsprozesse in der Lieferkette zu vereinfachen und den Bullwhip-Effekt zu verringern.
+Gronwald stellt dabei drei verschiedene Methoden vor:
+\begin{enumerate}
+    \item \textbf{Naiver Forecast}:\newline
+    Der naive Forecast bildet lediglich den aktuellen Bedarf ab und erlaubt keine Reaktion auf zukünftige Probleme.
+    Dennoch wird diese Methode häufig genutzt, um den kurzfristigen Bedarf zuverlässig decken zu können,
+    insbesondere bei stabiler Nachfrage oder fehlenden historischen Daten.
+    \item \textbf{Einfacher gleitender Mittelwert-Forecast}:\newline
+    Der einfache gleitende Mittelwert-Forecast wird verwendet, wenn der Bedarf über einen längeren Zeitraum hinweg relativ konstant bleibt.
+    Dabei wird der Forecast für die kommende Periode (t+1) als Durchschnitt der tatsächlichen Bedarfe der letzten n Perioden berechnet.
+    Je höher der Wert von n, desto glatter reagiert der Forecast auf kurzfristige Schwankungen.
+    Ist n = 1, handelt es sich um einen naiven Forecast, der lediglich den letzten Bedarf übernimmt.
+    Diese Methode ist leicht anzuwenden und bietet eine solide Grundlage bei stabiler Nachfrage,
+    ist jedoch ungeeignet bei starken Trends oder saisonalen Effekten.
+    \item \textbf{Exponentiell geglätteter Mittelwert-Forecast}:\newline
+    Der exponentiell geglättete Mittelwert-Forecast wird ähnlich wie der einfache gleitende Mittelwert-Forecast verwendet,
+    berücksichtigt jedoch stärker die jüngsten Bedarfsveränderungen.
+    Dabei fließt der aktuelle Bedarf mit dem sogenannten Glättungsfaktor $\alpha$ (zwischen 0 und 1) in die Berechnung ein.
+    Je höher der Wert von $\alpha$, desto stärker wird der aktuelle Bedarf gewichtet.
+    Ein niedriger Wert von $\alpha$ führt zu einer stärkeren Glättung und geringerer Reaktion auf kurzfristige Schwankungen.
+    Diese Methode eignet sich weniger für Bedarfsverläufe ohne oder mit nur geringen Trends.
+\end{enumerate}
+--Quelle--
+%\begin{table}[H]
+%    \centering
+%    \resizebox{\textwidth}{!}{ 
+%    \csvautotabular[separator=semicolon]{tabellen/scm2/SCM2Forcast.csv}}
+%    \caption{SCM 2 selbst erstellte Forecast}
+%    \label{tab:SCM 2 selbst erstellte Forecast}
+%\end{table}
+
+Es wurde versucht die drei Forecast methoden nachzubilden siehe Tabelle \ref{tab:SCM 2 selbst erstellte Forecast}. 
+Um die Entscheidung des Forecasts im Team zu vereinfachen.
+Die tabelle zeigt das der Naiver Forecast genau den aktuellen Bedarf abbildet und somit für die Spielrunde ungeeignet ist.
+Der exponentiell geglättete Mittelwert-Forecast wäre eine gute Wahl gewesen,
+jedoch wäre die herausforderung das Optimale Glättungsfaktor $\alpha$ zu finden schwergewesen, da der aktuelle Bedarf für die zweite spielrunde nicht gegeben war.
+Daher wurde der Gleitender Mittelwert verwendet, um den Forecast zu erstellen.
+Wichtig beim Gleitender Mittelwert war, die die beste den Optimalen N zu finden,
+durch die Simualtion wurde der N auf 5 gesetzt, da dieser sich stark am Bedarf orientiert hat.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/scm2/scm2forecastperiodewoche5.png}
+%    \caption{SCM2 Forecast mit n = 5}
+%    \label{fig:SCM2 Forecast mit n = 5}
+%\end{figure}
+Wie man der Abbildung \ref{fig:SCM2 Forecast mit n = 5} entnehmen kann,
+stellt die rote Linie den Forecast dar, während die blaue Linie den tatsächlichen Bedarf zeigt.
+Es ist deutlich zu erkennen, dass der Forecast sehr eng am tatsächlichen Bedarf liegt und sich ab etwa Woche 15 gut an die saisonalen Schwankungen anpasst, einschließlich des saisonalen Rückgangs.
+
+Zudem wird sichtbar, dass Ausreißer, insbesondere im Zeitraum von Woche 45 bis etwa Woche 50, geglättet werden und der Forecast weiterhin dem tatsächlichen Bedarf eng folgt.
+
+%\subsubsection{Optimierung der Bestellkosten im Einzelhandel}
+
+\subsubsection{Umgang mit Lieferverzögerungen über Blockchain \& Smart Contracts}
+Die Verwendung von Blockchain und Smart Contracts ist ein wichtiges Thema im Supply Chain Management.
+Die Funktion der Blockchain besteht darin, eine Kette spezieller Datensätze in einer dezentralen Datenbank zu speichern.
+Jeder dieser Blöcke enthält einen kryptographischen Hash sowie zusätzlich den Hash des vorherigen Blocks, wodurch eine unveränderbare und nachvollziehbare Kette entsteht.
+
+Smart Contracts stellen eine ergänzende Komponente der Blockchain-Technologie dar.
+Sie ermöglichen die Automatisierung von Aufgaben innerhalb der Lieferkette, etwa die automatische Auslösung einer Zahlung beim Wareneingang eines Produkts.
+Ein Smart Contract ist ein digitaler Vertrag in Form von Computercode, der auf der Blockchain gespeichert und für alle Beteiligten einsehbar ist.
+
+Trotz der Automatisierung durch Smart Contracts ist eine sorgfältige Prüfung der Abläufe notwendig Due Diligence,
+um die Korrektheit und Verlässlichkeit der Prozesse sicherzustellen.
+
+Das Planspiel bot nur begrenzte Möglichkeiten, die Blockchain-Technologie realitätsnah darzustellen.
+Einzig durch die simulierten Lieferverzögerungen ließ sich ansatzweise nachvollziehen, wie eine verbesserte Transparenz durch Blockchain zur Risikominimierung beitragen könnte.
+
+Dennoch wurde im Planspiel deutlich, wie wichtig Technologien wie Blockchain sind, um potenzielle Risiken frühzeitig zu erkennen und präventiv zu handeln.
+Im konkreten Fall konnten auf die Lieferverzögerungen wurden geeigneten Maßnahmen ergriffen,
+da zu spät erkannt wurde, was mit diesen Verzögerungen konkret gemeint war und welche Auswirkungen sie auf die Lieferkette haben würden.
+\subsubsection{Anwendung des Kanban-Prinzips zur Optimierung der Lieferkette}
+Kanban wurde von Taiichi Ohno, einem Ingenieur bei Toyota, entwickelt und stellt ein zentrales Konzept im Lean Management dar.
+Das Hauptziel von Kanban ist die Umsetzung des Just-in-Time-Prinzips, um den Lagerbestand innerhalb eines Produktionssystems zu minimieren.
+
+Das Grundprinzip besteht darin, dass eine Karte (Kanban) existiert, die in einer festgelegten Reihenfolge verschiedene Produktionsstationen durchläuft.
+Diese Karte wird nur dann an die nächste Station weitergegeben, wenn der Produktionsschritt an der aktuellen Station abgeschlossen ist.
+Gleichzeitig wird sie an die vorherige Station zurückgegeben, um dort den nächsten Produktionsvorgang auszulösen.
+Dieser Zyklus wiederholt sich so lange, bis das Endprodukt vollständig gefertigt ist. --Quelle--
+
+Dieses Prinzip könnte auch im Planspiel Anwendung finden, um die Effizienz der Bestellprozesse zu steigern.
+Die Umsetzung würde so gestaltet, dass Bestellungen den Weg von links nach rechts durchlaufen, also vom Einzelhandel bis zur Materialbeschaffung.
+Dabei spielt die Kommunikation zwischen den Geschäftsbereichen eine entscheidende Rolle,
+um die Lagerbestände möglichst gering zu halten und gleichzeitig Engpässe zu vermeiden.
+
+Wichtig ist dennoch anzumerken, dass das Prinzip des Kanban theoretisch im Planspiel angewendet wird,
+indem die Geschäftsbereiche nur ihre Bestellungen aufgeben und somit die Kanban-Karte von 
+einem Geschäftsbereich zum nächsten weitergegeben wird,
+wenn die Bestellung ausgelöst wird. Es fehlt jedoch die Kalkulierung der Lagerbestände, um diese minimieren zu können.
 \newpage
-\subsection{Spielrunde 3 – CRM3: Kundenmanagement mit Big Data}
-\subsubsection{Analyse der Einzelhandels-Ergebnisse im 3. Fiskaljahr}
-\subsubsection{ Performance-Analyse mit Word Tree \& beworbenen Produkten}
-\subsubsection{Einsatz von Sentiment Analysis im CRM und Marketing}
+\subsection{Spielrunde 3 – CRM2: Kundenmanagement mit Big Data}
+Wie bereits in der Einleitung erwähnt, wurde in der dritten Spielrunde (CRM2) das Customer Relationship Management simuliert.
+In dieser Runde agierten die Teammitglieder nicht als Geschäftsbereiche, sondern als Einzelhändler. 
+Einzelhändler 1, bestehend aus zwei Teammitgliedern, musste dabei zwölf Produkte aufteilen.
+
+Ziel dieser Runde war es, durch gezielte Vermarktung der Produkte sowohl den Umsatz als auch das Wachstum zu steigern. 
+Anders als in den vorherigen Runden traten die Unternehmen nicht direkt gegeneinander an,
+stattdessen konkurrierten die Einzelhändler untereinander,
+während das Unternehmen als Gesamtheit weiterhin als eine geschlossene Einheit fungierte.
+Es wurden insgesamt 12 Spielrunden gespielt, die jeweils 4 Wochen also 1 Monat repräsentierten.
+\subsubsection{Analyse der Einzelhandel eins Ergebniss}
+%\begin{table}[H]
+%    \centering
+%    \resizebox{\textwidth}{!}{ 
+%    \csvautotabular[separator=semicolon]{tabellen/crm2/produkte.csv}}
+%    \caption{CRM 2 Produktliste}
+%    \label{tab:CRM 2 Produktliste}
+%\end{table}
+Die Tabelle zeigt die Produkte, die dem Einzelhandel 1 zugeordnet wurden.
+In der ersten Spielrunde musste entschieden werden, welche Produkte beworben werden sollten.
+Nach gemeinsamer Teamentscheidung wurde beschlossen, dass der Bügel-Kasten und der Premium-Kasten nicht beworben werden,
+was sich im Nachhinein als folgenschwere Entscheidung herausstellte.
+Das Unternehmen Alpha hat diese beiden Produkte als einziges Unternehmen beworben und konnte somit ein Monopol aufbauen.
+
+Gleichzeitig gelang es jedoch, für die Produkte Premium-Flasche,
+Premium-12er-Pack und Alkoholfrei-Kasten ein Monopol für Royal aufzubauen.
+Diese drei Produkte wurden bis zur sechsten Spielrunde kontinuierlich vermarktet,
+um den Umsatz so weit wie möglich zu steigern.
+Zusätzlich wurde auf konkurrierende Produkte ein- bis zweimal ein Rabatt angewendet,
+um deren Umsatzwachstum gezielt zu unterbrechen.
+
+Während der Saison wurde auf Werbung verzichtet.
+Stattdessen wurde jeweils einmal der Preis erhöht,
+um den Umsatz zu maximieren und gleichzeitig den anderen Einzelhändlern im Unternehmen Royal zu ermöglichen,
+sich auf ihre starken Produkte zu konzentrieren.
+Nach der Saison wurde zum Abschluss nochmals Werbung geschaltet, um den positiven Saison-Effekt mitzunehmen.
+
+Um den Effekt der Vermarktung zu verdeutlichen, wurden die Umsätze vom Royal, 
+Green und Wild für das Produkt Premium-Flasche in Abbildung dargestellt.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Royal-Premiumflasche.png}
+%    \caption{Royal Premium-Flasche}
+%    \label{fig:Royal Premium-Flasche}
+%\end{figure}
+Wie oben beschrieben, wurde für das Produkt Premium-Flasche in den ersten zehn Wochen aktiv Marketing betrieben. 
+Dadurch konnte der Umsatz auf durchschnittlich etwa 65.000 Euro gesteigert werden.
+Durch die Saison sowie eine gezielte Preiserhöhung stieg der Umsatz zeitweise auf rund 100.000 Euro an.
+Nach der Saison wurde erneut Werbung geschaltet, um den Saison-Effekt mitzunehmen.
+Dies führte dazu, dass der durchschnittliche Umsatz von Woche 33 bis 50 bei etwa 75.000 Euro lag.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/green-Premiumflasche.png}
+%    \caption{Green Premium-Flasche}
+%    \label{fig:Green Premium-Flasche}
+%\end{figure}
+Wie in Abbildung \ref{fig:Green Premium-Flasche} zu sehen ist, wurde das Produkt Premium-Flasche von Green ebenfalls angeboten, 
+jedoch ohne den Einsatz von Marketingmaßnahmen.
+Stattdessen wurde lediglich der Preis gesenkt, um im Markt konkurrenzfähig zu bleiben.
+Dennoch zeigt sich ein deutlicher Unterschied im Umsatz zwischen Green und Royal,
+da Royal durch gezielte Marketingmaßnahmen den Umsatz nahezu verdoppeln konnte.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/wild-Premiumflasche.png}
+%    \caption{Wild Premium-Flasche}
+%    \label{fig:Wild Premium-Flasche}
+%\end{figure}
+Der Unterschied zwischen Wild und den Unternehmen Royal und Green ist enorm, da Wild das Produkt zwar beworben hat,
+jedoch keine weiteren Maßnahmen ergriff, um den Umsatz stabil zu halten.
+Dementsprechend sank der Umsatz von etwa 30.000 Euro auf rund 18.000 Euro.
+Zwar ist ein saisonaler Effekt erkennbar, jedoch zeigt der Umsatzverlauf von Wild, dass es nicht gelungen ist,
+den durchschnittlichen Umsatz von ca. 30.000 Euro nachhaltig zu erreichen.
+Stattdessen konnte der Umsatz lediglich während der Saison stabil gehalten werden,
+bevor er sich nach deren Ende dauerhaft bei etwa 18.000 Euro einpendelte.
+
+\subsubsection{Performance-Analyse mit Word Tree \& beworbenen Produkten}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Performance.png}
+%    \caption{Performance Total}
+%    \label{fig:Performance Total}
+%\end{figure}
+Auch im Bereich der Performance-Analyse spiegeln die Ergebnisse die zuvor beschriebenen Beobachtungen wider.
+Es wird deutlich, dass im ersten Quartal ein Großteil des Budgets ausgegeben wurde.
+Das hatte zur Folge, dass in den folgenden Quartalen kaum noch Budget zur Verfügung stand,
+um Produkte weiterhin zu vermarkten, Preisnachlässe zu gewähren oder Preiserhöhungen vorzunehmen.
+Dadurch sank die Performance in den späteren Quartalen drastisch und konnte nicht mehr vollständig ausgeschöpft werden.
+
+Im Vergleich dazu war die Strategie von Alpha besser,
+da dort von Quartal zwei bis Quartal vier die Performance weitgehend konstant gehalten wurde.
+Das bedeutet, dass Royal von den anfänglich erreichten 94\% Performance etwa 50\% hätte reduzieren und stattdessen gleichmäßig
+auf die Quartale zwei bis vier verteilen sollen, um eine konstante Performance zu erzielen.
+Dies würde auch erklären, warum Royal insgesamt nur rund 35\% der Gesamtperformance erreicht hat,
+während Alpha etwa 60\% erzielen konnte.
+
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/World-Tree.png}
+%    \caption{Performance Total}
+%    \label{fig:Performance Total}
+%\end{figure}
+
+Die World Tree-Analyse zeigt, dass die Produkte Alkoholfrei-Kasten,
+Premium-Flasche und Premium-12er-Pack die besten Ergebnisse für Royal erzielt haben.
+Die Marktpräsenz von Einzelhandel 1 des Unternehmens Royal ist dabei deutlich höher als die der
+Mitbewerber Green und Wild. Es ist erkennbar,
+dass diese drei Produkte fast die gleiche Gewichtung haben und sich daher sehr
+stark im Markt präsentieren konnten.
+
+Im Vergleich dazu war von Alpha lediglich zwei Produkte stärker auf dem Markt vertreten.
+Obwohl einige Einzelhändler von Royal in bestimmten Bereichen stärker vertreten waren,
+bleibt Alpha insgesamt der stärkere Akteur auf dem Markt.
+
+%\subsubsection{Einsatz von Sentiment Analysis im CRM und Marketing}
 
 \newpage
 % Fazit
 \section{Fazit}
-\subsection{Wichtige Erkenntnisse für den Einzelhandel aus den Spielrunden}
-\subsection{Bewertung des eigenen Verhaltens und der Teamkoordination}
+Insgesamt stellt die Simulation eine lehrreiche Erfahrung dar,
+die verdeutlicht, welche Geschäftsprozesse und Themen entscheidend sind,
+um eine Supply Chain effizient zu gestalten und ein erfolgreiches Customer Relationship Management
+zu betreiben. Sie zeigt auf, welche Grundlagen geschaffen werden müssen,
+um eine funktionierende Supply Chain überhaupt anwenden zu können.
 
+Wie insbesondere in den ersten beiden Spielrunden deutlich wurde,
+spielen Kommunikation, Forecasting und Blockchain-Technologie eine zentrale Rolle,
+um eine vorausschauende Steuerung der Lieferkette zu ermöglichen und auf Risiken reagieren zu können,
+ohne dass diese gravierende Auswirkungen auf das Unternehmen haben. Zudem wurde deutlich,
+dass emotionale Entscheidungen zu Verlusten führen können,
+die sich in Form von hohen Lagerkosten oder Fehlmengenkosten niederschlagen.
+Durch den Einsatz von Forecast-Methoden und rationalen Entscheidungen können diese Kosten deutlich
+reduziert oder zumindest kalkulatorisch eingeplant werden.
+
+Auch im Bereich des Customer Relationship Managements wurde sichtbar,
+dass Produkte, die nicht aktiv beworben werden, dennoch sinnvoll im Produktportfolio verbleiben können,
+um passiven Umsatz zu generieren. Ebenso ist es essenziell,
+das vorhandene Marketingbudget gleichmäßig über die Quartale zu verteilen,
+um eine konstante und möglichst hohe Performance über den gesamten Zeitraum zu erzielen.
 % Literaturverzeichnis
 \newpage
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \section*{Literaturverzeichnis}
 \begin{thebibliography}{99}
     \bibitem{Gronwald2020} Gronwald, (2020). \textit{Integrierte Business-Informationssysteme – Ganzheitliche, geschäftsprozessorientierte Sicht auf die vernetzte Unternehmensprozesskette ERP, SCM, CRM, BI, Big Data Analytics}. Springer Vieweg, 2020. Verfügbar unter: \url{https://link.springer.com/book/10.1007/978-3-662-59815-3} (zuletzt aufgerufen am 27.04.2025)
-    \bibitem{Kdibisglobal2025} Gronwald, K.D. \textit{kdibisglobal – Planspiel zur Umsetzung integrierter Business-Informationssysteme}. Verfügbar unter: \url{https://www.kdibisglobal.org/php/kdiglobstart.php} (zuletzt aufgerufen am 27.04.2025)
+    \bibitem{Kdibisglobal} Gronwald, K.D. \textit{kdibisglobal – Planspiel zur Umsetzung integrierter Business-Informationssysteme}. Verfügbar unter: \url{https://www.kdibisglobal.org/php/kdiglobstart.php} (zuletzt aufgerufen am 27.04.2025)
 \end{thebibliography}
 
 
