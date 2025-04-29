@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1745962347.3125 "e:/Projekte/Github/Implementierung-digitaler-Geschaeftsprozesse/main.tex" "main.pdf" "main" 1745962348.79821 0
+["pdflatex"] 1745963603.17004 "e:/Projekte/Github/Implementierung-digitaler-Geschaeftsprozesse/main.tex" "main.pdf" "main" 1745963604.5668 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -142,13 +142,13 @@
   "abbildungen/scm1/scm1Umsatz.png" 1745782949 106982 15043fffeb4abbbd62a43ebe95fba630 ""
   "abbildungen/scm1/scm1bullwhipeffektindex.png" 1745783227 176802 f1ef758b0173f1e789eefbe4ac7fdc76 ""
   "abbildungen/scm2/scm2forecastperiodewoche5.png" 1745929187 41814 ecbdcb41ed7445a774b07810738cdf66 ""
-  "e:/Projekte/Github/Implementierung-digitaler-Geschaeftsprozesse/main.tex" 1745962346 40746 a88214a958a9d118ecf438e5b3a3ca64 ""
-  "main.aux" 1745962348 5885 7cf0b28851e1f21b547b2c42c1c591dd "pdflatex"
-  "main.lof" 1745962348 752 031ddd909cba6408b6480084f9afc9c3 "pdflatex"
-  "main.lot" 1745962348 387 a029fdabb46517b74b77da603b77c05d "pdflatex"
-  "main.out" 1745962348 5301 7ab1d4f5599f493ae7cb931b5d630fa0 "pdflatex"
-  "main.tex" 1745962346 40746 a88214a958a9d118ecf438e5b3a3ca64 ""
-  "main.toc" 1745962348 2144 6bfbdfbdcab66149c2fdbc313da65fe2 "pdflatex"
+  "e:/Projekte/Github/Implementierung-digitaler-Geschaeftsprozesse/main.tex" 1745963602 40853 8af1b2305cf392e94a13204aa7ec9fbe ""
+  "main.aux" 1745963604 6005 9d8013f82d9ff586fb4861b416c8269f "pdflatex"
+  "main.lof" 1745963604 752 031ddd909cba6408b6480084f9afc9c3 "pdflatex"
+  "main.lot" 1745963604 387 a029fdabb46517b74b77da603b77c05d "pdflatex"
+  "main.out" 1745963604 5301 7ab1d4f5599f493ae7cb931b5d630fa0 "pdflatex"
+  "main.tex" 1745963602 40853 8af1b2305cf392e94a13204aa7ec9fbe ""
+  "main.toc" 1745963604 2144 6bfbdfbdcab66149c2fdbc313da65fe2 "pdflatex"
   "tabellen/crm2/produkte.csv" 1745944899 740 55e955f3ed401c70b9f3387d2c58ee27 ""
   "tabellen/scm1/scm1komplettablauf.csv" 1745783702 2013 c9a5afb945ad51498e3b91612edd3102 ""
   "tabellen/scm2/SCM2Forcast.csv" 1745918300 2243 4b37949969d74bb9f22ff62fc2a1ec20 ""
