@@ -76,6 +76,7 @@
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \begin{description}
     \item[CRM] Customer Relationship Management
+    \item[EOQ] Economic Order Quantity
     \item[SCM] Supply Chain Management
 \end{description}
 \newpage
@@ -131,14 +132,13 @@ Ziel ist es dabei die Auswirkungen eines nicht kommunikativen Supply Chain Manag
 --Quelle--
 
 Nachdem die  erste spielrunde erläuert wurde, wird auf die einzelnen Spielrunden eingegangen.
-%\begin{table}[H]
-%    \centering
-%    \resizebox{\textwidth}{!}{ 
-%    \csvautotabular[separator=semicolon]{tabellen/scm1/scm1komplettablauf.csv}  % Pfad zur CSV-Datei
-%    }
-%    \caption{SCM 1 Spielablauf}
-%    \label{tab:SCM 1 Spielablauf}
-%\end{table}
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \csvautotabular[separator=semicolon]{tabellen/scm1/scm1komplettablauf.csv}}
+    \caption{SCM 1 Spielablauf}
+    \label{tab:SCM 1 Spielablauf}
+\end{table}
 
 Wie aus der Tabelle zu entnehmen ist, verliefen die ersten 10 Spielrunden sehr erfolgreich, und die Bestellungen wurden stets rechtzeitig ausgelöst.
 Zusätzlich konnte die Lagerhaltung konstant bei durchschnittlich 1000 hl gehalten werden.
@@ -164,12 +164,13 @@ um vollständige Auslieferungen zu gewährleisten.
 Allerdings führte dieses Ziel zu erneut hohen Lagerkosten, verursacht durch Überbestellungen im Verlauf der Wochen ab Woche 37.
 Auch hier kam es wieder zu emotional gesteuerten Bestellungen, die ohne sorgfältige Berücksichtigung des tatsächlichen Bestelleingangs ausgelöst wurden, lediglich um Fehlmengen zu verhindern.
 
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/scm1/scm1Umsatz.png}
-%    \caption{SCM1 Umsatz}
-%    \label{fig:SCM1 Umsatz}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/scm1/scm1Umsatz.png}}
+    \caption{SCM1 Umsatz}
+    \label{fig:SCM1 Umsatz}
+\end{figure}
 
 Dennoch ist deutlich anhand des Abbilds zu erkennen, dass die Umsätze für den Einzelhandel mehr als 3,5 Millionen Euro betrugen
 und der Bullwhip-Effekt keinen großen Einfluss auf den Umsatz hatte, wie in den anderen Unternehmensbereichen.
@@ -177,12 +178,13 @@ und der Bullwhip-Effekt keinen großen Einfluss auf den Umsatz hatte, wie in den
 \subsubsection{Ursachen des Bullwhip-Effekts im Planspiel}
 Nun wurde mehr mals erwähnt, dass der Bullwhip-Effekt aufgetreten ist.
 Was genau bedeuetet den Bullwhip-Effekt, wie kommt dieser zustande und wie kann dieser vermieden werden?
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/scm1/scm1bullwhipeffektindex.png}
-%    \caption{SCM1 Bullwhip-Effekt-Index}
-%    \label{fig:SCM1 Bullwhip-Effekt-Index}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/scm1/scm1bullwhipeffektindex.png}}
+    \caption{SCM1 Bullwhip-Effekt-Index}
+    \label{fig:SCM1 Bullwhip-Effekt-Index}
+\end{figure}
 Auch soll die Abbildung \ref{fig:SCM1 Bullwhip-Effekt-Index} verdeutlichen, wie stark der Bullwhip-Effekt ausgeprägt sein kann.
 Wie setzt sich der Bullwhip-Effekt zusammen? Zum einen, wie in Kapitel Spielrunde 1 erläutert, liegt es an mangelnder Kommunikation zwischen den Teammitgliedern,
  zum anderen an fehlender Transparenz zwischen den Bereichen.
@@ -192,9 +194,15 @@ Das bedeutet: Wenn Abteilungen Bestellungen auf- oder abrunden, kommt es zu stä
 Bei der Lead Time spielt die Zeitdifferenz zwischen Bestellung und Erhalt der Ware eine entscheidende Rolle.
 Wenn Teammitglieder auf die Supply Chain reagieren, die Waren jedoch verzögert eintreffen, kann ein starker Effekt entstehen, wie es in den Wochen 11–18 aufgetreten ist und in Abbildung \ref{fig:SCM1 Bullwhip-Effekt-Index} erkennbar ist.
 
-\subsubsection{IT-Situation der Einzelhandelsketten 1–4}
-Auch die IT-Situation der Einzelhandelsketten 1–4 ist ein wichtiger Punkt, der im Planspiel nicht berücksichtigt wurde.
-In diesem wird vorallem in Einzelhandel deutlich, dass man nicht speziell 
+\subsubsection{IT-Situation der Unternehmen}
+Auch die IT-Situation der Einzelhandelsketten 1–4 ist ein wichtiger Punkt,
+Da in der Simulation die IT-Situation der jeweiligen Geschäftsbereiche gleich sind,
+Kann zusammengefasst werden, keine Transparenz des Bedarfs, Forecasting haben.
+Auch kann gesagt werden, das keine Auftagsverwaltung, keine Lagerverwaltung und keine Personalverwaltung
+vorhanden sind. und lediglich das Finanzsystem für die Rechnungsabwicklung verwendet wird.
+Zusätzlich besteht in den Einzelhandel nur die gebündelte Bestellung, der Einzelhandel 1-4 
+die keine Transparenz aufweißen. --Quelle--
+
 
 \subsubsection{Wahl einer M\&A IT-Integrationsstrategie}
 Die erste Spielrunde hat deutlich gezeigt, wie entscheidend eine gute IT-Integration ist.
@@ -209,7 +217,7 @@ Insgesamt werden vier verschiedene Integrationsstrategien beschrieben:
     Die Stammdatenreinigung muss weiterhin innerhalb der bestehenden IT-Systeme vorgenommen werden.
     Dies führt dazu, dass die Integration zwar schnell erfolgen kann, 
     jedoch keine Kosteneinsparungen erzielt werden und die fortlaufende Wartung der IT-Systeme 
-    unterhalb der „Maske“ weiterhin notwendig bleibt. \newpage
+    unterhalb der „Maske“ weiterhin notwendig bleibt. 
     \item \textbf{Absorption/Übernahme}:\newline
     Bei der Übernahme wird eine dominante IT-Organisationsform genutzt, um ein ERP-Template zu erstellen,
     das anschließend in den verschiedenen Geschäftsbereichen implementiert wird. Ziel ist die Standardisierung der Geschäftsprozesse,
@@ -228,7 +236,7 @@ Insgesamt werden vier verschiedene Integrationsstrategien beschrieben:
     Die Integration neuer Systeme gestaltet sich in der Regel langwierig und komplex, da bestehende Stammdaten weiterhin übernommen werden müssen.
     Eine sorgfältige Planung und Umsetzung ist hierbei unerlässlich, um finanzielle Schäden sowie Datenverluste zu vermeiden.
 \end{enumerate}
---Quelle--
+--Quelle--\cite[Kapitel 4.2]{Gronwald2020}
 
 Jede der vorgestellten Strategien hat ihre Vor- und Nachteile. Für das Planspiel wäre jedoch die Transformation nicht geeignet gewesen,
 da die IT-Systeme nicht veraltet waren, sondern vielmehr die Transparenz zwischen den Geschäftsbereichen fehlte.
@@ -238,20 +246,20 @@ Die Übernahme-Strategie scheidet ebenfalls aus, da alle IT-Systeme gleich waren
 Somit bleibt nur die Strategie der Koexistenz/Symbiose, bei der nicht eine „Maske“ entwickelt werden muss,
 sondern eine Erweiterung der bestehenden IT-Systeme erforderlich gewesen wäre. Um die fehlende Transparenz zwischen den Geschäftsbereichen zu schaffen,
 hätte eine Schnittstelle zwischen den IT-Systemen implementiert werden müssen.
-%\subsubsection{Organisational Readiness und CMMI-Reifegrade}
 
-\newpage
+
+
 \subsection{Spielrunde 2 – SCM2: Forecasting und Inventory Management}
 Die Zweite Spielrunde SCM2 ist die Runde, die die schwächen der ersten Runde ausgeglichen hat.
 In dem die Transparenz zwischen den Teammitgliedern geschaffen wurde und die Kommunikation zwischen den Teammitgliedern erlaubt wurde.
-Zudem kam in dieser Runde erstmals eine Forecasting-Methode zum Einsatz, wie sie im Kapitel \enquote{Auswahl und Anwendung von Forcastingmethoden} erläutert wird.
-%\begin{table}[H]
-%    \centering
-%    \resizebox{\textwidth}{!}{ 
-%    \csvautotabular[separator=semicolon]{tabellen/scm2/scm2komplettablauf.csv}}
-%    \caption{SCM 2 Spielablauf}
-%    \label{tab:SCM 2 Spielablauf}
-%\end{table}
+Zudem kam in dieser Runde erstmals eine Forecasting-Methode zum Einsatz, wie sie im Kapitel \enquote{Auswahl und Anwendung von Forecastingmethoden} erläutert wird.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \csvautotabular[separator=semicolon]{tabellen/scm2/scm2komplettablauf.csv}}
+    \caption{SCM 2 Spielablauf}
+    \label{tab:SCM 2 Spielablauf}
+\end{table}
 Aus der Tabelle geht hervor, dass der Forecast bis zur Spielrunde 13 sehr gut funktionierte.
 Da jedoch in den Spielrunden 8–10 Lieferverzögerungen angekündigt wurden, ohne dass entsprechende Maßnahmen getroffen wurden, hatte dies fatale Auswirkungen in den Spielrunden 18–26.
 Weil die Geschäftsbereiche in dieser Phase keine Lagerbestände aufgebaut hatten, kam es zu erheblichen Fehlmengen, die den Bullwhip-Effekt in den verschiedenen Bereichen auslösten.
@@ -263,10 +271,78 @@ In den Spielrunden 28 bis 34 ließ sich dies jedoch nicht vollständig umsetzen,
 Daher wurde der Lagerbestand weitgehend ignoriert, und die Bestellungen wurden bis zur Spielrunde 50 konsequent am Forecast ausgerichtet.
 
 In den letzten zwei Spielrunden hingegen wurde der Forecast nicht mehr berücksichtigt, stattdessen diente der Lagerbestand als Grundlage, um den entstandenen Überschuss abzubauen.
+
+In der zweiten Spielrunde kommt auch das Inventory Management,
+beziehungsweise die Economic Order Quantity (EOQ)-Methode, zum Einsatz.
+Diese Methode wird verwendet, um die optimale Bestellmenge zu berechnen und somit Kosten zu sparen.
+Das Ziel besteht darin, die Lagerkosten und Bestellkosten zu kombinieren und die Gesamtkosten zu minimieren.
+Die Methode hat drei unterschiedliche Modell:
+\begin{enumerate}
+    \item \textbf{EOQ-Basic}:\newline
+    Die EOQ-Basic-Methode ist das einfachste Modell zur Bestimmung der optimalen Bestellmenge,
+    bei der die Gesamtkosten für Bestellungen und Lagerhaltung minimiert werden. Das Modell setzt voraus,
+    dass der Bedarf konstant und bekannt ist und keine Schwankungen auftreten. Ziel ist es, die Lagerbestände so zu optimieren,
+    dass sowohl Bestellkosten als auch Lagerhaltungskosten minimiert werden. 
+    Das Modell eignet sich besonders für Unternehmen, die konstanten Bedarf und geringe Schwankungen im Lagerbestand haben.
+    
+    Die Formel für die EOQ-Basic-Methode lautet: 
+    $x_{opt} = \sqrt{\frac{2 \cdot a \cdot M}{c}}$ 
+
+    wobei $x_{opt}$ die optimale Bestellmenge ist, $a$ die Fixkosten pro Bestellung, $M$ der jährliche Bedarf und $c$ die Lagerkosten pro Einheit darstellt. 
+    \begin{itemize}
+        \item Ein hoher Bedarf $M$ führt zu einer höheren Bestellmenge, da größere Bestellungen die Fixkosten auf mehrere Einheiten verteilen.
+        \item Hohe Lagerkosten $c$ führen zu einer kleineren Bestellmenge, da in diesem Fall die Lagerhaltungskosten durch häufigere Bestellungen vermieden werden sollen.
+    \end{itemize}
+    
+    
+    \item \textbf{EOQ-Shortage}:\newline
+    Das EOQ-Shortage-Modell stellt eine Erweiterung des Basic-Modells dar, bei dem Ausverkäufe und Fehlmengen toleriert werden.
+    Anstatt Fehlmengen zu vermeiden, wird die Möglichkeit berücksichtigt, dass eine Nachlieferung erfolgen kann, wenn eine Fehlmenge auftritt.
+    In diesem Modell sind Fehlmengenkosten ein relevanter Faktor.
+    Das EOQ-Shortage-Modell eignet sich besonders für Unternehmen, die es sich leisten können,
+    mit gelegentlichen Fehlmengen zu arbeiten, ohne dass dies zu erheblichen Verlusten führt.
+
+    Die Formel für die EOQ-Shortage-Methode lautet:
+    $s_{opt} = \sqrt{\frac{2 \cdot a \cdot M}{c}} \cdot \sqrt{\frac{c + f}{f}}$
+
+    wobei $f$ die Fehlmengenkosten pro Einheit darstellt. 
+    \begin{itemize}
+        \item Ein höherer Fehlmengenkosten $f$ führt zu einer kleineren optimalen Bestellmenge, da das Unternehmen versucht, Fehlmengen zu minimieren, um die hohen Kosten zu vermeiden.
+        \item Wenn die Fehlmengenkosten gering sind, kann das Unternehmen größere Bestellungen tätigen und gelegentliche Fehlmengen tolerieren, um insgesamt die Lagerhaltungskosten zu senken.
+    \end{itemize}
+
+
+    \item \textbf{EOQ Non-Instantaneous Receipt}:\newline
+    Das EOQ Non-Instantaneous Receipt-Modell berücksichtigt, dass die Ware nicht sofort vollständig geliefert wird,
+    sondern in Teillieferungen eingeht, was bei Produktionsunternehmen oder bei Unternehmen mit speziellen Liefervereinbarungen üblich ist.
+    In diesem Modell wird die Produktionsrate und die Nachfrage berücksichtigt, um die optimale Bestellmenge zu bestimmen. 
+    Dieses Modell eignet sich für Unternehmen, die ihre Produktionskapazitäten nutzen oder Lieferungen über einen längeren Zeitraum erhalten.
+
+    Die Formel für die EOQ Non-Instantaneous Receipt-Methode lautet:
+    $x_{opt} = \sqrt{\frac{2 \cdot a \cdot M}{c}} \cdot \sqrt{\frac{x_p}{x_p - x_d}}$
+
+    wobei $x_p$ die tägliche Produktionsrate und $x_d$ die tägliche Verbrauchsrate darstellt.
+    \begin{itemize}
+        \item Eine höhere Produktionsrate $x_p$ im Vergleich zur Nachfrage $x_d$ führt zu einer höheren Bestellmenge,
+        das Unternehmen längere Zeit Vorräte produzieren kann, um den Bedarf zu decken.
+        \item Wenn die Produktionsrate nahe an der Verbrauchsrate liegt,
+        sollte das Unternehmen die Bestellmenge sorgfältig kalkulieren, da die Lagerbestände nicht schnell genug aufgebaut werden können,
+        um den Bedarf zu decken.
+    \end{itemize}
+
+\end{enumerate}
+--Quelle--
+
+Die drei Methoden der Economic Order Quantity (EOQ) bieten jeweils spezifische Vorteile für unterschiedliche Unternehmenssituationen.
+Für die Simulation wäre insbesondere die EOQ-Basic-Methode eine geeignete Wahl gewesen, da direkte Lieferungen an die Einzelhändler erfolgen und keine Produktionsraten berücksichtigt werden müssen.
+Zusätzlich wäre auch die EOQ-Shortage-Methode sinnvoll einsetzbar gewesen, da im Rahmen der Simulation auch Lieferverzögerungen, die zu Fehlmengen führen könnten, in der EOQ-Shortage-Methode berücksichtigt werden, wenn diese Fehlmengen mit einkalkuliert werden.
+Durch den Einsatz der Blockchain-Technologie konnte zudem eine hohe Transparenz in Bezug auf Lieferverzögerungen gewährleistet werden, was die Anwendung des Shortage-Modells weiter unterstützt hätte.
+
+
 %\subsubsection{Bestell- und Lieferverhalten im Einzelhandel}
 
 
-\subsubsection{Auswahl und Anwendung von Forcastingmethoden und Teamstrategie}
+\subsubsection{Auswahl und Anwendung von Forecastingmethoden und Teamstrategie}
 Die Forecast-Methode wird im Buch von Gronwald als ein wichtiger Bestandteil des Demand-Managements beschrieben.
 Sie soll dabei helfen, Entscheidungsprozesse in der Lieferkette zu vereinfachen und den Bullwhip-Effekt zu verringern.
 Gronwald stellt dabei drei verschiedene Methoden vor:
@@ -291,13 +367,13 @@ Gronwald stellt dabei drei verschiedene Methoden vor:
     Diese Methode eignet sich weniger für Bedarfsverläufe ohne oder mit nur geringen Trends.
 \end{enumerate}
 --Quelle--
-%\begin{table}[H]
-%    \centering
-%    \resizebox{\textwidth}{!}{ 
-%    \csvautotabular[separator=semicolon]{tabellen/scm2/SCM2Forcast.csv}}
-%    \caption{SCM 2 selbst erstellte Forecast}
-%    \label{tab:SCM 2 selbst erstellte Forecast}
-%\end{table}
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \csvautotabular[separator=semicolon]{tabellen/scm2/SCM2Forcast.csv}}
+    \caption{SCM 2 selbst erstellte Forecast}
+    \label{tab:SCM 2 selbst erstellte Forecast}
+\end{table}
 
 Es wurde versucht die drei Forecast methoden nachzubilden siehe Tabelle \ref{tab:SCM 2 selbst erstellte Forecast}. 
 Um die Entscheidung des Forecasts im Team zu vereinfachen.
@@ -307,12 +383,13 @@ jedoch wäre die herausforderung das Optimale Glättungsfaktor $\alpha$ zu finde
 Daher wurde der Gleitender Mittelwert verwendet, um den Forecast zu erstellen.
 Wichtig beim Gleitender Mittelwert war, die die beste den Optimalen N zu finden,
 durch die Simualtion wurde der N auf 5 gesetzt, da dieser sich stark am Bedarf orientiert hat.
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/scm2/scm2forecastperiodewoche5.png}
-%    \caption{SCM2 Forecast mit n = 5}
-%    \label{fig:SCM2 Forecast mit n = 5}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/scm2/scm2forecastperiodewoche5.png}}
+    \caption{SCM2 Forecast mit n = 5}
+    \label{fig:SCM2 Forecast mit n = 5}
+\end{figure}
 Wie man der Abbildung \ref{fig:SCM2 Forecast mit n = 5} entnehmen kann,
 stellt die rote Linie den Forecast dar, während die blaue Linie den tatsächlichen Bedarf zeigt.
 Es ist deutlich zu erkennen, dass der Forecast sehr eng am tatsächlichen Bedarf liegt und sich ab etwa Woche 15 gut an die saisonalen Schwankungen anpasst, einschließlich des saisonalen Rückgangs.
@@ -357,7 +434,7 @@ Wichtig ist dennoch anzumerken, dass das Prinzip des Kanban theoretisch im Plans
 indem die Geschäftsbereiche nur ihre Bestellungen aufgeben und somit die Kanban-Karte von 
 einem Geschäftsbereich zum nächsten weitergegeben wird,
 wenn die Bestellung ausgelöst wird. Es fehlt jedoch die Kalkulierung der Lagerbestände, um diese minimieren zu können.
-\newpage
+
 \subsection{Spielrunde 3 – CRM2: Kundenmanagement mit Big Data}
 Wie bereits in der Einleitung erwähnt, wurde in der dritten Spielrunde (CRM2) das Customer Relationship Management simuliert.
 In dieser Runde agierten die Teammitglieder nicht als Geschäftsbereiche, sondern als Einzelhändler. 
@@ -369,13 +446,13 @@ stattdessen konkurrierten die Einzelhändler untereinander,
 während das Unternehmen als Gesamtheit weiterhin als eine geschlossene Einheit fungierte.
 Es wurden insgesamt 12 Spielrunden gespielt, die jeweils 4 Wochen also 1 Monat repräsentierten.
 \subsubsection{Analyse der Einzelhandel eins Ergebniss}
-%\begin{table}[H]
-%    \centering
-%    \resizebox{\textwidth}{!}{ 
-%    \csvautotabular[separator=semicolon]{tabellen/crm2/produkte.csv}}
-%    \caption{CRM 2 Produktliste}
-%    \label{tab:CRM 2 Produktliste}
-%\end{table}
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \csvautotabular[separator=semicolon]{tabellen/crm2/produkte.csv}}
+    \caption{CRM 2 Produktliste}
+    \label{tab:CRM 2 Produktliste}
+\end{table}
 Die Tabelle zeigt die Produkte, die dem Einzelhandel 1 zugeordnet wurden.
 In der ersten Spielrunde musste entschieden werden, welche Produkte beworben werden sollten.
 Nach gemeinsamer Teamentscheidung wurde beschlossen, dass der Bügel-Kasten und der Premium-Kasten nicht beworben werden,
@@ -397,34 +474,37 @@ Nach der Saison wurde zum Abschluss nochmals Werbung geschaltet, um den positive
 
 Um den Effekt der Vermarktung zu verdeutlichen, wurden die Umsätze vom Royal, 
 Green und Wild für das Produkt Premium-Flasche in Abbildung dargestellt.
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Royal-Premiumflasche.png}
-%    \caption{Royal Premium-Flasche}
-%    \label{fig:Royal Premium-Flasche}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Royal-Premiumflasche.png}}
+    \caption{Royal Premium-Flasche}
+    \label{fig:Royal Premium-Flasche}
+\end{figure}
 Wie oben beschrieben, wurde für das Produkt Premium-Flasche in den ersten zehn Wochen aktiv Marketing betrieben. 
 Dadurch konnte der Umsatz auf durchschnittlich etwa 65.000 Euro gesteigert werden.
 Durch die Saison sowie eine gezielte Preiserhöhung stieg der Umsatz zeitweise auf rund 100.000 Euro an.
 Nach der Saison wurde erneut Werbung geschaltet, um den Saison-Effekt mitzunehmen.
 Dies führte dazu, dass der durchschnittliche Umsatz von Woche 33 bis 50 bei etwa 75.000 Euro lag.
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/green-Premiumflasche.png}
-%    \caption{Green Premium-Flasche}
-%    \label{fig:Green Premium-Flasche}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/green-Premiumflasche.png}}
+    \caption{Green Premium-Flasche}
+    \label{fig:Green Premium-Flasche}
+\end{figure}
 Wie in Abbildung \ref{fig:Green Premium-Flasche} zu sehen ist, wurde das Produkt Premium-Flasche von Green ebenfalls angeboten, 
 jedoch ohne den Einsatz von Marketingmaßnahmen.
 Stattdessen wurde lediglich der Preis gesenkt, um im Markt konkurrenzfähig zu bleiben.
 Dennoch zeigt sich ein deutlicher Unterschied im Umsatz zwischen Green und Royal,
 da Royal durch gezielte Marketingmaßnahmen den Umsatz nahezu verdoppeln konnte.
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/wild-Premiumflasche.png}
-%    \caption{Wild Premium-Flasche}
-%    \label{fig:Wild Premium-Flasche}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/wild-Premiumflasche.png}}
+    \caption{Wild Premium-Flasche}
+    \label{fig:Wild Premium-Flasche}
+\end{figure}
 Der Unterschied zwischen Wild und den Unternehmen Royal und Green ist enorm, da Wild das Produkt zwar beworben hat,
 jedoch keine weiteren Maßnahmen ergriff, um den Umsatz stabil zu halten.
 Dementsprechend sank der Umsatz von etwa 30.000 Euro auf rund 18.000 Euro.
@@ -434,12 +514,13 @@ Stattdessen konnte der Umsatz lediglich während der Saison stabil gehalten werd
 bevor er sich nach deren Ende dauerhaft bei etwa 18.000 Euro einpendelte.
 
 \subsubsection{Performance-Analyse mit Word Tree \& beworbenen Produkten}
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Performance.png}
-%    \caption{Performance Total}
-%    \label{fig:Performance Total}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/Performance.png}}
+    \caption{Performance Total}
+    \label{fig:Performance Total}
+\end{figure}
 Auch im Bereich der Performance-Analyse spiegeln die Ergebnisse die zuvor beschriebenen Beobachtungen wider.
 Es wird deutlich, dass im ersten Quartal ein Großteil des Budgets ausgegeben wurde.
 Das hatte zur Folge, dass in den folgenden Quartalen kaum noch Budget zur Verfügung stand,
@@ -453,12 +534,13 @@ auf die Quartale zwei bis vier verteilen sollen, um eine konstante Performance z
 Dies würde auch erklären, warum Royal insgesamt nur rund 35\% der Gesamtperformance erreicht hat,
 während Alpha etwa 60\% erzielen konnte.
 
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/World-Tree.png}
-%    \caption{Performance Total}
-%    \label{fig:Performance Total}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{ 
+    \includegraphics[width=0.7\textwidth]{abbildungen/crm2/World-Tree.png}}
+    \caption{Performance Total}
+    \label{fig:Performance Total}
+\end{figure}
 
 Die World Tree-Analyse zeigt, dass die Produkte Alkoholfrei-Kasten,
 Premium-Flasche und Premium-12er-Pack die besten Ergebnisse für Royal erzielt haben.
@@ -473,7 +555,6 @@ bleibt Alpha insgesamt der stärkere Akteur auf dem Markt.
 
 %\subsubsection{Einsatz von Sentiment Analysis im CRM und Marketing}
 
-\newpage
 % Fazit
 \section{Fazit}
 Insgesamt stellt die Simulation eine lehrreiche Erfahrung dar,
